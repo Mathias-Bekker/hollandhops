@@ -1,0 +1,36 @@
+/*#orderButton{*/
+/*   float: middle;*/
+/*}*/
+.thumbnail{
+    min-height: 450px;
+}
+.thumbnail img {
+    max-height: 200px;
+}
+
+.thumbnail .description {
+    color: #7F7F7F;
+}
+
+.price{
+    font-weight: bold;
+    font-size: 16px;
+    /*float: left;*/
+    /*margin: 20px;*/
+}
+
+.row {
+    position: relative;
+}
+
+.bottom-align-text {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+.amount{
+    font-weight: normal;
+    font-size: 16px;
+    /*float: left;*/
+}
