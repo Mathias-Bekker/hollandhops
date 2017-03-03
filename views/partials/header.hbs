@@ -21,13 +21,10 @@
           role="button" aria-haspopup="true" aria-expanded="false">
             <i class="fa fa-user" aria-hidden="true"></i> Sign in here<span class="caret"></span></a>
           <ul class="dropdown-menu">
-            {{# if login}}
             <li><a href="/user/profile">Profile</a></li>
             <li><a href="/user/logout">Sign Out</a></li>
-            {{ else }}
-            <li><a href="/user/signup">Sign Up</a></li>
-            <li><a href="/user/signin">Sign In</a></li>
-            {{/if}}
+            <li><a href="/user/signup">Register</a></li>
+            <li><a href="/user/signin">Log in</a></li>
           </ul>
         </li>
       </ul>
